@@ -1,0 +1,13 @@
+".container" : {
+	backgroundColor:"white",
+	layout:"vertical"  
+}
+"#viewContainer":{
+	height: "100%",
+	width: "100%",
+	layout: "vertical"
+}
+"Label":{
+	height:"5%",
+	width:"50%"
+}

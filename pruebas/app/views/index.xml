@@ -1,0 +1,9 @@
+<Alloy>
+	<Window class="container" id="ventanaPruebas">
+		<ScrollableView class="scroll">
+			<View id="viewContainer">
+				<Button id="parseXML" onClick="openWindowParseoXml">XML</Button>
+			</View>
+		</ScrollableView>
+	</Window>
+</Alloy>

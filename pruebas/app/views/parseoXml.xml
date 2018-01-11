@@ -1,0 +1,7 @@
+<Alloy>
+	<Window class="container" id="parseoXml" title="Parseo XML">
+		<View id="viewContainer">
+			<Button id="botonEstatusDenuncia" onClick="estatusDenuncia">Acción</Button>
+		</View>
+	</Window>
+</Alloy>
