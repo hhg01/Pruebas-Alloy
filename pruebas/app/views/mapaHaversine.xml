@@ -1,0 +1,13 @@
+<Alloy>
+	<Window class="container" title="Distancia entre dos puntos">
+		<View id="mapa">
+			
+		</View>
+		<View id="botones">
+			<View class="acciones"></View>
+			<View class="acciones"></View>
+			<View class="acciones"></View>
+			<View class="acciones"></View>
+		</View>
+	</Window>
+</Alloy>

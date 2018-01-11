@@ -2,7 +2,9 @@
 	<Window class="container" id="ventanaPruebas">
 		<ScrollableView class="scroll">
 			<View id="viewContainer">
+				<Label id="label"></Label>
 				<Button id="parseXML" onClick="openWindowParseoXml">XML</Button>
+				<Button id="haversine" onClick="openWindowHaversine">Haversine</Button>
 			</View>
 		</ScrollableView>
 	</Window>

@@ -3,7 +3,7 @@ var args = $.args;
 
 $.parseoXml.open();
 
-/*function estatusDenuncia(){
+function estatusDenuncia(){
 	var xhrCGCDMX = Ti.Network.createHTTPClient();
 	
 	var requestSOAP = "<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:tem=\"http://tempuri.org/\"> \n" +
@@ -20,6 +20,7 @@ $.parseoXml.open();
 		var xml = this.responseText;
 		//console.log("this.responseText :::::::::: " + this.responseText);
 		var localidades = buscarLocalizacion(xml);
+		alert(JSON.stringify(localidades));
 		//Ti.API.info(JSON.stringify(localidades));
 		Ti.API.info("**************************");
 	};
@@ -45,10 +46,10 @@ function buscarLocalizacion(doc){
 		    });
 		};
 		return localizaciones;
-}*/
+}
 
 
-function estatusDenuncia(){
+/*function estatusDenuncia(){
   var xhrCGCDMX = Ti.Network.createHTTPClient();
   
   var requestSOAP ="<soapenv:Envelope xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:urn=\"urn:denunciawsdl2\"> \n"+
@@ -116,4 +117,4 @@ function agregar(xml){
 	    	});
     };
     return sidecs;
-}
+}*/
